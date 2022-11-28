@@ -26,7 +26,10 @@ namespace StackUsingSingleLinkList
         }
         bool empty()
         {
-
+            if (top == null)
+                return (true);
+            else
+                return (false);
         }
 
     }
