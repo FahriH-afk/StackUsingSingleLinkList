@@ -60,11 +60,6 @@ namespace StackUsingSingleLinkList
                 }
             }
         }
-
-    }
-
-    internal class Program
-    {
         static void Main(string[] args)
         {
             Stack s = new Stack();
@@ -89,7 +84,7 @@ namespace StackUsingSingleLinkList
                     case '2':
                         if (s.empty())
                         {
-                            Console.WriteLine("\nStack Empty");
+                            Console.WriteLine("\nStack empty");
                             break;
                         }
                         s.pop();
@@ -101,9 +96,10 @@ namespace StackUsingSingleLinkList
                         return;
                     default:
                         Console.WriteLine("\nInvalid Choice");
-                        break ;
+                        break;
                 }
             }
         }
-    }
+
+    }    
 }
