@@ -16,6 +16,7 @@ namespace StackUsingSingleLinkList
             next = n;
         }
     }
+
     internal class Program
     {
         static void Main(string[] args)
