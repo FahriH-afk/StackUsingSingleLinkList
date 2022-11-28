@@ -21,6 +21,7 @@ namespace StackUsingSingleLinkList
     {
         node top;
         public Stack()
+
     }
 
     internal class Program
